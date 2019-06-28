@@ -1,4 +1,4 @@
-# Data Lovers
+# Data Lovers - Rick&Morty
 
 ## Índice
 
@@ -35,32 +35,29 @@ y la interfaz construida [aquí](https://app.talento.laboratoria.la/profile/HFOo
 
 ## Resumen del proyecto
 
-En este proyecto **construirás una _página web_ para visualizar un
-_conjunto (set) de datos_** que se adecúe a lo que descubras que tu usuario
-necesita.
+Este proyecto está dirigido a espectadores, fans y frikis de la serie "Rick and Morty, tiene 
+como finalidad lograr una pantalla con información organizada sobre los personajes principales de la
+misma.
 
-Esta vez te proponemos una serie de datos de diferentes _temáticas_ para que
-explores y decidas con qué temática te interesa trabajar. Hemos elegido
-específicamente estos sets de datos porque creemos que se adecúan bien a esta
-etapa de tu aprendizaje.
+**Construiremos una _página web_ para visualizar un
+_conjunto (set) de datos_** que se adecúe a lo que el usuario necesita.
 
-Una vez que definas tu área de interés, entiende quién es tu usuario y qué
-necesita saber o ver exactamente; luego podrás construir la interfaz que le
-ayude a interactuar y entender mejor esos datos.
+Elegimos la data de Rick and Morty por ser un tanto breve en comparación con otras, sin embargo
+entendemos la complejidad de organizar la información de forma accesible, amigable e interactiva
+con el usuario. 
+
+¿Quién es el usuario? Después de realizar las primeras encuestas obtuvimos un resultado de 15 pasticipantes que amablemente nos apoyaron con sus respuestas y nos permitieron ver que "algunos conocen sólo los personajes principales, pero el resto de los personales ocasionales no los conocen" y por lo tanto decidimos dirigirnos a esa mayoría para generar los filtros que permitan buscar por: 
+
+- nombre 
+- especie
+- origen
+- localización
+
+
 
 Estos son datos que te proponemos:
 
 
-- [Pokémon](src/data/pokemon/pokemon.json):
-  En este set encontrarás una lista con los 151 Pokémon de la región de Kanto,
-  junto con sus respectivas estadísticas usadas en el juego [Pokémon GO](pokemongolive.com).
-- [Steam noticias](src/data/steam/steam.json):
-  Lista noticias relacionadas a los videojuegos presentes en la
-  plataforma de [Steam](https://store.steampowered.com/).
-- [League of Legends - Challenger leaderboard](src/data/lol/lol.json):
-  Este set de datos muestra la lista de jugadores en una liga del
-  juego League of Legends (LoL), puedes revisar la documentación de su API en
-  este [link](https://developer.riotgames.com/api-methods/).
 - [Rick and Morty](src/data/rickandmorty/rickandmorty.json).
   Este set nos proporciona la lista de los personajes de la serie Rick and
   Morty. Puedes revisar la documentación de su API en este [link](https://rickandmortyapi.com). 
