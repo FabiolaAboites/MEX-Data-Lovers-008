@@ -1,7 +1,3 @@
-let personage = [Rick Sánchez, Morty Smith, Beth Smith
-
-]
-
 const RICKANDMORTY = [{
   "info": {
     "count": 493,
