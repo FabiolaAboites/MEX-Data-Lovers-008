@@ -1,4 +1,4 @@
-# Data Lovers - Rick&Morty
+# El Portal de Rick and Morty
 
 ## Índice
 
@@ -53,7 +53,11 @@ con el usuario.
 - origen
 - localización
 
+#Resultados de la encuesta
 
+A continuación agregamos los resultados de la encuesta realizada.
+
+Gráfico de las respuestas de Formularios. Título de la pregunta: ¿Has visto la serie de Rick and Morty?. Número de respuestas: 22&nbsp;respuestas.
 
 Estos son datos que te proponemos:
 
