@@ -1,0 +1,46 @@
+
+.prueba{
+    color: rgb(0, 17, 255);
+    font-size: 3em;
+}
+
+#p1{
+    font-family: 'Covered By Your Grace', cursive;
+    color:rgb(46, 240, 39);
+    text-align: center;
+    font-size: 180%
+}
+
+#portal{
+background-image:url("../img/fondogalactico2.png");
+background-repeat: no-repeat fixed center;
+image-orientation: from-image;
+}
+
+#pistola{
+    width: 70px;
+    left: 80%;
+}
+
+h1{
+    font-family: 'Covered By Your Grace', cursive;
+    color:rgb(46, 240, 39);
+    text-align: center;
+    font-size: 180%
+    
+}
+
+#rickmolesto{
+    width: 300px;
+    left: 120;
+}
+
+#rickfiltra{
+    background-image: url("../img/oficina\ de\ rick.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+#input-name{
+    
+}
