@@ -1,10 +1,14 @@
-const RICKANDMORTY = {
+let personage = [Rick Sánchez, Morty Smith, Beth Smith
+
+]
+
+const RICKANDMORTY = [{
   "info": {
     "count": 493,
     "pages": 25,
     "next": "https://rickandmortyapi.com/api/character/?page=2",
     "prev": ""
-  },
+  }],
   "results": [{
     "id": 1,
     "name": "Rick Sanchez",
