@@ -46,13 +46,12 @@ Elegimos la data de Rick and Morty por ser un tanto breve en comparación con ot
 entendemos la complejidad de organizar la información de forma accesible, amigable e interactiva
 con el usuario. 
 
-¿Quién es el usuario? Después de realizar las primeras encuestas obtuvimos un resultado de 15 pasticipantes que amablemente nos apoyaron con sus respuestas y nos permitieron ver que "algunos conocen sólo los personajes principales, pero el resto de los personales ocasionales no los conocen" y por lo tanto decidimos dirigirnos a esa mayoría para generar los filtros que permitan buscar por: 
+¿Quién es el usuario? Después de realizar las primeras encuestas obtuvimos un resultado de 15 participantes que amablemente nos apoyaron con sus respuestas y nos permitieron ver que "algunos conocen sólo los personajes principales, pero el resto de los personales ocasionales no los conocen" y por lo tanto decidimos dirigirnos a esa mayoría para generar los filtros que permitan buscar por: 
 
 - nombre 
 - especie
 - origen
-- localización
-
+- status
 
 
 Estos son datos que te proponemos:

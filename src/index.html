@@ -2,8 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Rick and Morty</title>
+    <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
   </head>
 <h1>El portal de Rick y Morty</h1>
 <img id="Pistola" src="" alt="">
@@ -16,11 +17,6 @@
 
 
 </section>
-
-  <body>
-
-    <div id="root"></div>
-    <script>
       const filtrado = document.querySelector('#listado');
       const boton = document.querySelector ('#boton');
       const resultado =document.querySelector('#resultado');
@@ -28,14 +24,37 @@
         
         </ul>
 
-    </script>
-    <!-- <script src="./data/injuries/injuries.js"></script> -->
-    <!-- <script src="./data/pokemon/pokemon.js"></script> -->
-    <!-- <script src="./data/steam/steam.js"></script> -->
-    <!-- <script src="./data/worldbank/worldbank.js"></script> -->
-    <!-- <script src="./data/lol/lol.js"></script> -->
-    <script src="./data/rickandmorty/rickandmorty.js"></script>
-    <script src="data.js"></script>
-    <script src="main.js"></script>
+  <body>
+    <!--Primer sección de bienvenida-->
+    <section id="portal">
+     <h1 id="encabezado"><center>El portal de Rick and Morty</center></h1>
+     <center><img src="../img/1491535581123.gif" alt="Pixel Art"></center>
+     <p id="p1">IDENTIFICATE</p>
+    <!--en el siguiente imput agregan su nombre-->
+     <label for=""></label>
+     <center><input id="input-name" type="text" placeholder="">
+      <img id="pistola" src="../img/pistolaverde.png"alt="">
+     </center>
+    </section>
+    <!--Segunda sección aqui se filtra-->
+    <section id="rickfiltra">
+      <h1>Conoce los experimentos de Rick</h1>
+      <img id= "rickmolesto" src="../img/ricksinfondo.png" alt="alt="Pixel Art">
+          <label for=""></label>
+
+      <input id="receive-name" type="text">
+    </section>
+    <section>
+      <div id="root"></div>
+      <!-- <script src="./data/injuries/injuries.js"></script> -->
+      <!-- <script src="./data/pokemon/pokemon.js"></script> -->
+      <!-- <script src="./data/steam/steam.js"></script> -->
+      <!-- <script src="./data/worldbank/worldbank.js"></script> -->
+      <!-- <script src="./data/lol/lol.js"></script> -->
+      <script src="./data/rickandmorty/rickandmorty.js"></script>
+      <script src="data.js"></script>
+      <script src="main.js"></script>
+     </section>
+    
   </body>
 </html>
