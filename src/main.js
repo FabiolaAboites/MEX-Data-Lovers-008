@@ -1,7 +1,7 @@
 const filtrado = document.querySelector('#listado');
       const boton = document.querySelector ('#boton');
       const resultado =document.querySelector('#resultado');
-      <ul id="resultado" ></ul>
+      //<ul id="resultado" ></ul>
 
 const filtrar = () => {
     const texto = filtrado.value.toLowerCase();
@@ -9,11 +9,12 @@ const filtrar = () => {
         let name = personaje.name.toLowerCase();
         if(name.indexOf(texto) !== -1){
             resultado.innerHTML +=
-            <li>${personaje.name} - Valor: ${personaje.valor}</li>
-        }
-    }
+            //<li>${personaje.name} - Valor: ${personaje.valor}</li>
+        //}
+    //}
 
-    return 'filtrar';
+    //return 'filtrar';
+    console.log(filtrar);
   };
   
   window.filtrar = filtrar;

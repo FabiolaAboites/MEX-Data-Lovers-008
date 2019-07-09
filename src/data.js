@@ -1,7 +1,7 @@
 // esta es una función de ejemplo
 // puedes ver como agregamos la función a nuestro objeto global window
 
-window.example = example
+//window.example = example
 
 //descomentar para mostrar data//
 const root = document.getElementById('root')

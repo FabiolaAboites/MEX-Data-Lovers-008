@@ -6,7 +6,7 @@ const RICKANDMORTY = {
     "pages": 25,
     "next": "https://rickandmortyapi.com/api/character/?page=2",
     "prev": ""
-  }],
+  },
   "results": [{
     "id": 1,
     "name": "Rick Sanchez",
