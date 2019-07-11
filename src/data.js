@@ -7,6 +7,7 @@ const root = document.getElementById('root')
 const btn = document.getElementById('prueba')
 const data = RICKANDMORTY.results
 
+//funcion para menu//
 
 const printData = (data) => {
   let str = ''

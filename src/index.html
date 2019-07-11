@@ -1,34 +1,71 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Rick and Morty</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"
     <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-  </head>
-<img id="Pistola" src="" alt="">
-
-</section>
-
   <body>
-    <!--Primer sección de bienvenida-->
+<!--Primer sección bienvenida-->
     <section id="portal">
-     <h1 id="encabezado"><center>El portal de Rick and Morty</center></h1>
-     <center><img src="../img/1491535581123.gif" alt="Pixel Art"></center>
-     <p id="p1">IDENTIFICATE</p>
-    <!--en el siguiente imput agregan su nombre-->
-     <label for=""></label>
-     <center><input id="input-name" type="text" placeholder="">
-      <img id="pistola" src="../img/pistolaverde.png"alt="">
-     </center>
+      <h1 id="encabezado"><center>El portal de Rick and Morty</center></h1>
+      <center><img src="../img/1491535581123.gif" alt="Pixel Art"></center>
+      <p id="p1">IDENTIFICATE</p>
+<!--en el siguiente imput agregan su nombre-->
+      <label for=""></label>
+        <center><input id="input-name" type="text" placeholder="">
+      <a class="pistola" id="pistolaportal" href="#">
+        <img src="../img/pistola.png"alt="pistolita" width="50px" height="50px">
+      </a>
+      </center>
     </section>
-    <!--Segunda sección aqui se filtra-->
+<!--Segunda sección se filtra-->
     <section id="rickfiltra">
       <h1>Conoce los experimentos de Rick</h1>
-      <img id= "rickmolesto" src="../img/ricksinfondo.png" alt="alt="Pixel Art">
-          <label for=""></label>
-
-      <input id="receive-name" type="text">
+<!--Menu con filtrado segunda sección-->
+  <title>Menu</title>
+  </head>
+  <header>
+    <div class="menu_bar">
+    </div>
+    <nav>
+     <ul>
+        <li class="menudesplegable">
+            <a href="#"><span class="icon-rocket"></span>Estado<span class="caret icon-arrow-down6"></span></a>
+            <ul class="children">
+              <li><a href="#">Vivo <span class="icon-dot"></span></a></li>
+              <li><a href="#">Muerto <span class="icon-dot"></span></a></li>
+              <li><a href="#">Desconocido <span class="icon-dot"></span></a></li>
+            </ul>
+        </li>
+        <li class="menudesplegable2">
+            <a href="#"><span class="icon-rocket"></span>Especie<span class="caret icon-arrow-down6"></span></a>
+            <ul class="children">
+              <li><a href="#">Humano<span class="icon-dot"></span></a></li>
+              <li><a href="#">Alien <span class="icon-dot"></span></a></li>
+              <li><a href="#">Humanoide<span class="icon-dot"></span></a></li>
+              <li><a href="#">Mitologico<span class="icon-dot"></span></a></li>
+              <li><a href="#">Animal<span class="icon-dot"></span></a></li>
+              <li><a href="#">Humanoide<span class="icon-dot"></span></a></li>
+            </ul>
+        </li>
+       <li class="menudesplegable3">
+            <a href="#"><span class="icon-rocket"></span>Género<span class="caret icon-arrow-down6"></span></a>
+            <ul class="children">
+              <li><a href="#">Hombre <span class="icon-dot"></span></a></li>
+              <li><a href="#">Mujer  <span class="icon-dot"></span></a></li>
+           </ul>
+      </li>
+    </ul>
+      </nav> 
+  </header>
+  <!--Rick saluda-->
+  <img id= "rickmolesto" src="../img/superrick.png"alt="Pixel Art">
+  <!--se agregua v-->
+      <div class="vineta">
+          <p class="globo abajo-izquierda">
+          ¡Hola humano!    
+      </div>
     </section>
     <section>
       <button type="button " id="prueba">prueba</button>
