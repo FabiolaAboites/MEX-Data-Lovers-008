@@ -4,7 +4,7 @@
 
 //descomentar para mostrar data//
 const root = document.getElementById('root')
-const btn = document.getElementById('prueba')
+const btn = document.getElementById('buscar')
 const data = RICKANDMORTY.results
 
 //funcion para menu//
@@ -44,11 +44,23 @@ printData(data)
   // Selection.addEventListener)('change' , () => {
   //  const valor = Selection.value
   // })
+
+//Funciones de filtrado por status  
 let filtrar = (data) => {
   const result = data.filter(element => element.status == 'Dead')
   printData(result);
 }
 
-prueba.addEventListener('click', () => {
+let filtrar = (data) => {
+  const result = data.filter(element => element.status == 'Alive')
+  printData(result);
+}
+
+let filtrar = (data) => {
+  const result = data.filter(element => element.status == 'unknown')
+  printData(result);
+}
+
+buscar.addEventListener('click', () => {
   filtrar(data)
 })
