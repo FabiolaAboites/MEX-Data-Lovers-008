@@ -15,6 +15,14 @@
     display.none
 }
 
+.pistolaportal{
+    float: center;
+}
+.globo{
+    float: right;
+
+}
+
   .col-1{width: 8.333333333333332%;}
   .col-2{width: 16.666666666666664%;}
   .col-3{width: 25%;}
@@ -27,8 +35,8 @@
   .col-10{width: 83.33333333333334%;}
   .col-11{width: 91.66666666666666%;}
   .col-12{width: 100%;}
-
-  /*@media screen and*/
+  
+   /*@media screen and*/
   
   .tarjetas{
       
