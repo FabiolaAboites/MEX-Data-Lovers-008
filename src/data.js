@@ -6,8 +6,8 @@
 const root = document.getElementById('root')
 const btn = document.getElementById('buscar')
 const data = RICKANDMORTY.results
-const ordenar = document.getElementById("ordenar");
-const botonordenar = document.getElementById("ordenar")
+//const ordenar = document.getElementById("ordenar");
+//const botonordenar = document.getElementById("ordena")
 
 //Función para pintar data por propiedades//
 const printData = (data) => {
@@ -62,17 +62,17 @@ let filtrartres = (data) => {
   printData(result);
 }
 
- ordenar : (data,propiedad,orden) => {
-  let resultado = {};
-  if(orden === "ascendente" || orden === "numAscendente") {
-  resultado = data.sort((a,b) => (a[propiedad] > b[propiedad] ? 1 : -1));
-  } 
-  else if(orden === "descendente" || orden === "numDescendente") {
-  resultado = data.sort ((a,b) => (a[propiedad] > b[propiedad] ? -1 : 1));
-  }
-  return resultado;
-},
+ //ordenar : (data,propiedad,orden) => {
+  //let resultado = {};
+  //if(orden === "ascendente" || orden === "numAscendente") {
+  //resultado = data.sort((a,b) => (a[propiedad] > b[propiedad] ? 1 : -1));
+  //} 
+  //else if(orden === "descendente" || orden === "numDescendente") {
+  //resultado = data.sort ((a,b) => (a[propiedad] > b[propiedad] ? -1 : 1));
+  //}
+  //return resultado;
+//},
 
-buscar.addEventListener('click', () => {
-  ordenar(data,propiedad,orden)
-})
+//buscar.addEventListener('click', () => {
+  //ordenar(data,propiedad,orden)
+//})

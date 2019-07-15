@@ -1,3 +1,8 @@
+#p1{
+    font-family: 'Covered By Your Grace', cursive;
+    color:rgb(46, 240, 39);
+    text-align: center;
+    font-size: 180%
 *{
     background: red;
 }
@@ -20,9 +25,180 @@
 }
 .globo{
     float: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+#p1{
+    font-family: 'Covered By Your Grace', cursive;
+    color:rgb(15, 180, 9);
+    text-align: center;
+    font-size: 180%
+}
+
+#portal{
+background-image:url("../img/fondogalactico2.png");
+background-repeat: no-repeat fixed center;
+image-orientation: from-image;
+}
+
+#pistola{
+    width: 70px;
+    left: 80%;
+}
+
+h1{
+    font-family: 'Covered By Your Grace', cursive;
+    color:rgb(17, 167, 12);
+    text-align: center;
+    font-size: 180%
+    
+}
+
+#rickmolesto{
+    width: 300px;
+    padding-left: 60%; 
 
 }
 
+#rickfiltrayordena{
+    background-image: url(.."/img/oficinaderick.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+    
+}
+.vineta{
+    position:relative;
+    width: 100%;
+    max-width: 600px;
+    height: 100vh;
+    max-height: 600px;
+
+  }
+  .globo{
+    position: relative;
+    width: 200px;
+    height: 150px; 
+    top: 2px;
+    left: 100%;
+    border-radius: 2em;
+    z-index: 1; 
+    background-color:rgba(24, 199, 230, 0.904);
+    
+  }
+  
+/* //MENU// */
+.menu_bar {
+	display:none;
+}
+ 
+ 
+header nav ul {
+	list-style:none;
+}
+ 
+header nav ul li {
+	display:inline-block;
+	position: relative;
+}
+ /*Color de caja de categorias*/
+header nav ul li:hover {
+	background:#E6344A;
+}
+ /*Color de letra */
+header nav ul li a {
+	color:rgb(236, 236, 225);
+	display:block;
+	text-decoration:none;
+	padding: 20px;
+}
+ 
+header nav ul li a span {
+	margin-right:10px;
+}
+ 
+header nav ul li:hover .children {
+	display:block;
+}
+ /*Color de caja de carateristicas*/
+header nav ul li .children {
+	display: none;
+	background:#0b9dc2;
+	position: absolute;
+	width: 150%;
+	z-index:1000;
+}
+ /*Color de linea entre caracteristicas*/
+header nav ul li .children li {
+	display:block;
+	overflow: hidden;
+	border-bottom: 1px solid rgba(223, 38, 38, 0.5);
+}
+ 
+header nav ul li .children li a {
+	display: block;
+}
+ 
+header nav ul li .children li a span {
+	float: right;
+	position: relative;
+	top:3px;
+	margin-right:0;
+	margin-left:10px;
+}
+ 
+header nav ul li .caret {
+	position: relative;
+	top:3px;
+	margin-left:10px;
+    margin-right:0px;
+    
+ @media screen and (max-width: 800px) {
+        body {
+            padding-top:80px;
+        }
+     
+        .menu_bar {
+            display:block;
+            width:100%;
+            position: fixed;
+            top:0;
+            background:#E6344A;
+        }
+     
+        .menu_bar .bt-menu {
+            display: block;
+            padding: 20px;
+            color: #fff;
+            overflow: hidden;
+            font-size: 25px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+     
+        .menu_bar span {
+            float: right;
+            font-size: 40px;
+        }
+     
+        header nav {
+            width: 80%;
+            height: calc(100% - 80px);
+            position: fixed;
+            right:100%;
+            margin: 0;
+            overflow: scroll;
+        }
+        
+.main{
+    margin: 0 auto;
+    width: 100vw;
+    height: 12vh;
+    display:flex;
+    flex-flow: row wrap;
+    align-content:space-around;
+}
   .col-1{width: 8.333333333333332%;}
   .col-2{width: 16.666666666666664%;}
   .col-3{width: 25%;}
@@ -38,6 +214,4 @@
   
    /*@media screen and*/
   
-  .tarjetas{
-      
-  }
+  

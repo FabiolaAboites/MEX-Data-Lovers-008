@@ -3,6 +3,7 @@
   <head>
     <title>Rick and Morty</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   <body>
@@ -14,9 +15,9 @@
 <!--Botón para ingresar a segunda pantalla-->
       <label for=""></label>
         <a class="pistola" id="pistolaportal" href="#">
-        <img src="../img/pistola.png"alt="pistolita" width="50px" height="50px">
+        <center><img src="../img/pistola.png"alt="pistolita" width="50px" height="50px">
       </a>
-      </center>
+    </center>
     </section>
 <!--Segunda sección se filtra y ordena-->
     <section id="rickfiltrayordena">
@@ -56,7 +57,7 @@
               <li><a href="#">Female<span class="icon-dot"></span></a></li>
            </ul>
            <ul>
-       <li class="menudesplegable4">
+      <!-- <li class="menudesplegable4">
             <a href="#"><span class="icon-rocket"></span>Ordenar<span class="caret icon-arrow-down6"></span></a>
             <ul class="children">
               <li><a href="#">A-Z <span class="icon-dot"></span></a></li>
@@ -64,7 +65,7 @@
               <li><a href="#">001-493 <span class="icon-dot"></span></a></li>
               <li><a href="#">493-001 <span class="icon-dot"></span></a></li>
             </ul>
-      </li>
+      </li>-->
     </ul>
       </nav> 
   </header>
@@ -72,20 +73,19 @@
   <img id= "rickmolesto" src="../img/superrick.png"alt="Pixel Art">
   <!--se agregua v-->
       <div class="vineta">
-          <p class="globo" style="direction: ltr">
-          ¡Hola humano! No me vas a creer, porque casi nunca pasa, pero cometí un error, ayúdame a encontrar personajes por estatus, género ó especie... ¿Listo?   
+          <p class="globo" style="direction: ltr">¡Hola humano! No me vas a creer, porque casi nunca pasa, pero cometí un error, ayúdame a encontrar personajes por estatus, género ó especie... ¿Listo?</p>
       </div>
     </section>
     <section>
       <button type="button" id="buscar">BUSCAR</button>
-      <!----<button type="button" id="ordenar">ORDENAR</button>-->
+      <button type="button" id="ordena">ORDENAR</button>-->
       <div id="root"></div>
       <script src="./data/rickandmorty/rickandmorty.js"></script>
       <script src="data.js"></script>
       <script src="main.js"></script>
      </section>
     
-     <main class="container">
+     <main class="contenedor">
        <section class="row">
          <div class="card"></div>
        </section>
